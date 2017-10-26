@@ -95,7 +95,7 @@ GameObject:
   - 4: {fileID: 57476301}
   - 114: {fileID: 57476300}
   m_Layer: 0
-  m_Name: Generator
+  m_Name: bulletGenerator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -134,7 +134,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 427352, guid: adad2a2953391ad4a95fb894a26e02b8, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.9555762
+      value: 0.47
       objectReference: {fileID: 0}
     - target: {fileID: 427352, guid: adad2a2953391ad4a95fb894a26e02b8, type: 2}
       propertyPath: m_LocalPosition.y
@@ -358,7 +358,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 427352, guid: adad2a2953391ad4a95fb894a26e02b8, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.323298
+      value: -3.42
       objectReference: {fileID: 0}
     - target: {fileID: 427352, guid: adad2a2953391ad4a95fb894a26e02b8, type: 2}
       propertyPath: m_LocalPosition.y

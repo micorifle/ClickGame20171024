@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Generator : MonoBehaviour {
+public class BulletGenerator : MonoBehaviour {
 
     public GameObject bulletPrefab;
 
@@ -10,10 +10,11 @@ public class Generator : MonoBehaviour {
         if (Input.GetMouseButtonDown(0))
         {
             GameObject bullet = Instantiate(bulletPrefab) as GameObject;
+            Destroy(bullet, 1.0f);
 
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Vector3 worldDir = ray.direction;
-            bullet.GetComponent<Controller>().Shoot(worldDir.normalized * 20000);
+            bullet.GetComponent<BulletController>().Shoot(worldDir.normalized * 2000);
         }
 	}
 }
